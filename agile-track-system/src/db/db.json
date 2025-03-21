@@ -1,0 +1,206 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "password": "adminpassword",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Employee One",
+      "email": "employee1@example.com",
+      "password": "password1",
+      "role": "employee"
+    },
+    {
+      "id": "3",
+      "name": "Employee Two",
+      "email": "employee2@example.com",
+      "password": "password2",
+      "role": "employee"
+    },
+    {
+      "name": "Employee Three",
+      "email": "employee3@example.com",
+      "password": "password3",
+      "role": "employee",
+      "id": "4"
+    },
+    {
+      "id": "2636",
+      "name": "Employee Four",
+      "email": "employee4@example.com",
+      "password": "password4",
+      "role": "employee"
+    },
+    {
+      "id": "9877",
+      "name": "Divya",
+      "email": "divya@example.com",
+      "password": "divya@1722",
+      "role": "employee"
+    }
+  ],
+  "scrums": [
+    {
+      "id": "1",
+      "name": "Scrum Team A"
+    },
+    {
+      "id": "2",
+      "name": "Scrum Team B"
+    },
+    {
+      "name": "Scrum Team C",
+      "id": "3"
+    },
+    {
+      "id": "d607",
+      "name": "Scrum Team D"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Task One",
+      "description": "Description for Task One",
+      "status": "Done",
+      "scrumId": 1,
+      "assignedTo": 2,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-02-01"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-01-26"
+        },
+        {
+          "status": "Done",
+          "date": "2025-01-26"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-20"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-20"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-20"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-20"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-20"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-20"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-21"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-21"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-21"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-21"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-21"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Task Two",
+      "description": "Description for Task Two",
+      "status": "In Progress",
+      "scrumId": 2,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-02-02"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-03"
+        }
+      ]
+    },
+    {
+      "title": "Task 3",
+      "description": "Description for Task 3",
+      "status": "Done",
+      "scrumId": 3,
+      "assignedTo": 3,
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2025-01-26"
+        },
+        {
+          "status": "To Do",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-18"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-18"
+        }
+      ],
+      "id": "3"
+    },
+    {
+      "id": "a585",
+      "title": "sprint1",
+      "description": "error in line 45",
+      "status": "Done",
+      "scrumId": "d607",
+      "assignedTo": "9877",
+      "history": [
+        {
+          "status": "In Progress",
+          "date": "2025-03-21"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-21"
+        }
+      ]
+    }
+  ]
+}

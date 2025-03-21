@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    background-color: #c2faf5;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+    background: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Links for Dashboard & Profiles */
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #6a5acd; /* Purple shade */
+    font-weight: bold;
+}
+
+/* Logout Button */
+.logout-button {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.logout-button:hover {
+    background-color: darkred;
+}
+
+/* Move everything upwards */
+.main-content {
+    margin-top: 80px; /* Adjust to move everything up */
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+}
+
+/* User Profiles Section */
+.heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Centering the Add User Button */
+.add-user-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color:rgb(159, 230, 251);
+}
+
+/* Add User Button */
+.add-user-button {
+    background-color: #007BFF;  /* Blue */
+    color: rgb(189, 243, 30);
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.add-user-button:hover {
+    background-color: #e1fd57;
+}
+
+/* User List */
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* User Card */
+.user-card {
+    background: #f8f3f6;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+/* Name and Email Styling */
+.user-info h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.user-info p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Get History Button */
+.get-history-button {
+    background-color: #90EE90; /* Light Green */
+    color: rgb(53, 203, 249);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.get-history-button:hover {
+    background-color: #d6f85b;
+}
