@@ -41,6 +41,13 @@
       "email": "divya@example.com",
       "password": "divya@1722",
       "role": "employee"
+    },
+    {
+      "id": "9792",
+      "name": "Employee Five",
+      "email": "gorrumuchudivyamani1@gmail.com",
+      "password": "123456",
+      "role": "employee"
     }
   ],
   "scrums": [
@@ -59,6 +66,10 @@
     {
       "id": "d607",
       "name": "Scrum Team D"
+    },
+    {
+      "id": "bc6b",
+      "name": "Scrum Team E"
     }
   ],
   "tasks": [
@@ -137,6 +148,14 @@
         {
           "status": "Done",
           "date": "2025-03-21"
+        },
+        {
+          "status": "In Progress",
+          "date": "2025-03-21"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-21"
         }
       ]
     },
@@ -192,6 +211,28 @@
       "scrumId": "d607",
       "assignedTo": "9877",
       "history": [
+        {
+          "status": "In Progress",
+          "date": "2025-03-21"
+        },
+        {
+          "status": "Done",
+          "date": "2025-03-21"
+        }
+      ]
+    },
+    {
+      "id": "f808",
+      "title": "java",
+      "description": "error in line 60",
+      "status": "Done",
+      "scrumId": "bc6b",
+      "assignedTo": "2636",
+      "history": [
+        {
+          "status": "To Do",
+          "date": "2025-03-21"
+        },
         {
           "status": "In Progress",
           "date": "2025-03-21"
